@@ -1,6 +1,7 @@
 Academic Software License Agreement (12/2/2021)
 
-STANFORD ACADEMIC SOFTWARE LICENSE AGREEMENT FOR "Bodywide Map of Exerkine Changes with Spatially-Resolved Profiling at Single-Cell Resolution (ExerkineMap)"
+STANFORD ACADEMIC SOFTWARE LICENSE AGREEMENT FOR "DEEP GENERATIVE MODELING EXERKINE PROFILES AND SPATIALLY RESOLVED MULTIOMICS MAPPING OF EXERKINES 
+ FOR PERSONALIZED EXERCISE PRESCRIPTIONS AND NEXT-GENERATION CANCER IMMUNOTHERAPY BIOMARKERS"
 
 
 1.	This is a legal agreement (“Agreement”) between ______________________ (“RECIPIENT” or “you”), and THE BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY (“STANFORD”) and THE TRUSTEES OF THE CALIFORNIA STATE UNIVERSITY, EAST BAY ("CSUEB”).  Stanford and CSUEB have assignments to “Bodywide Map of Exerkine Changes with Spatially-Resolved Profiling at Single-Cell Resolution” (“Software”) which was developed in the laboratory of Professor Michael Snyder at Stanford and Alexander Urban at Stanford.
