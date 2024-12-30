@@ -1,12 +1,14 @@
+# DEEP-GOMS: Deep Evolutionary Ensemble Predictor for Gut OncoMicrobiome Signatures
+
 ### Overview
-The GOMS-CICB Predictive Model project aims to develop a reproducible next-generation biomarker prediction model for combinatorial immune checkpoint blockade (CICB) response. This model leverages advanced machine learning techniques and integrates multi-omics data, including metagenomic, spatial meta-transcriptomic, and metabolomic analyses, to identify reproducible gut microbiome signatures (GOMS) associated with early-stage I-II cancers.
+The DEEP-GOMS project aims to develop a reproducible next-generation biomarker prediction model for combinatorial immune checkpoint blockade (CICB) response in early-stage I-II cancers. This innovative approach integrates multi-omics data, including metagenomic, spatial meta-transcriptomic, and metabolomic analyses, to identify reproducible gut microbiome signatures (GOMS) associated with CICB response. The model incorporates advanced machine learning techniques and considers emerging cancer immunotherapy modalities beyond traditional immune checkpoint inhibitors.
 
 ## Key Features
-Multi-Omics Data Integration: Combines shotgun metagenomic sequencing, FISH assays, spatial meta-transcriptome analysis (SMTa), and metabolomic profiling to provide a comprehensive view of the gut microbiome.
-Advanced Feature Selection: Utilizes techniques like LASSO, Ridge Regression, and feature importance from tree-based models to select the most relevant features.
-Metadata Integration: Incorporates strain-resolution, strain-responsive, and strain-efficacy metadata to enhance the predictive power of the model.
-Deep Learning Models: Employs deep learning architectures such as Convolutional Neural Networks (CNNs) for complex data integration and prediction tasks.
-Pipeline Automation: Uses tools like Snakemake and Nextflow to automate the data processing and analysis pipeline, ensuring reproducibility and scalability.
+Integrates multi-omics data including shotgun metagenomic sequencing, spatial meta-transcriptomics, and metabolomics to provide a comprehensive view of the gut microbiome.
+Utilizes advanced feature selection techniques like LASSO, Ridge Regression, and tree-based model feature importance.
+Employs deep learning architectures such as Convolutional Neural Networks for complex data integration and prediction tasks.
+Considers emerging immunotherapy approaches including CAR T-cell therapy, TCR-engineered T cells, neoantigen vaccines with dendritic cells, and exercise immunotherapy.
+Incorporates automated pipeline using Snakemake and Nextflow for reproducibility and scalability.
 
 ## Project Structure
 The project is organized into the following directories:
@@ -27,7 +29,7 @@ Getting Started
 1. Clone the Repository:
 ```
 git clone <repository_url>
-cd GOMS-CICB_Predictive_Model
+cd DEEP-GOMS
 ```
 2. Install Dependencies:
 ```
@@ -45,3 +47,5 @@ nextflow run workflows/nextflow.config
 4. Explore Notebooks: Open and run the Jupyter notebooks in the ```notebooks/``` directory to interactively explore data preprocessing, feature selection, model training, and evaluation.
 
 This project provides a robust framework for developing and validating a predictive model for CICB response, leveraging state-of-the-art techniques in multi-omics data integration and machine learning.
+=======
+
