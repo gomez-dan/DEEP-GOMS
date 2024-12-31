@@ -1,0 +1,82 @@
+rule all:
+    input:
+        "results/optimized_model.h5"
+
+rule preprocess_data:
+    input:
+        "data/raw/spatial_metatranscriptomic/data.csv",
+        "data/raw/metagenomic/data.csv",
+        "data/raw/metabolomic/data.csv",
+        "data/processed/preprocessed_rnaseq_data.csv",
+        "data/processed/preprocessed_dna_data.csv",
+        "data/processed/preprocessed_methylation_data.csv",
+        "data/processed/preprocessed_proteome_data.csv",
+        "data/processed/preprocessed_codex_data.csv"
+    output:
+        "data/processed/integrated_data.csv"
+    script:
+        "src/preprocessing/integrate_data.py"
+
+rule preprocess_bulk_rnaseq:
+    input:
+        "data/raw/bulk_rnaseq/raw_rnaseq_data.csv"
+    output:
+        "data/processed/preprocessed_rnaseq_data.csv"
+    script:
+        "src/preprocessing/preprocess_bulk_rnaseq.py"
+
+rule preprocess_bulk_dna:
+    input:
+        "data/raw/bulk_dna/raw_dna_data.csv"
+    output:
+        "data/processed/preprocessed_dna_data.csv"
+    script:
+        "src/preprocessing/preprocess_bulk_dna.py"
+
+rule preprocess_bulk_methylation:
+    input:
+        "data/raw/bulk_methylation/raw_methylation_data.csv"
+    output:
+        "data/processed/preprocessed_methylation_data.csv"
+    script:
+        "src/preprocessing/preprocess_bulk_methylation.py"
+
+rule preprocess_proteome:
+    input:
+        "data/raw/single_niche_proteome/raw_proteome_data.csv"
+    output:
+        "data/processed/preprocessed_proteome_data.csv"
+    script:
+        "src/preprocessing/preprocess_proteome.py"
+
+rule preprocess_codex:
+    input:
+        "data/raw/codex_imaging/raw_codex_data.csv"
+    output:
+        "data/processed/preprocessed_codex_data.csv"
+    script:
+        "src/preprocessing/preprocess_codex.py"
+
+rule preprocess_visium:
+    input:
+        "data/raw/visium_imaging/sample_data"
+    output:
+        "data/processed/preprocessed_visium_data.csv"
+    script:
+        "src/preprocessing/preprocess_visium.py"
+
+rule feature_selection:
+    input:
+        "data/processed/integrated_data.csv"
+    output:
+        "data/processed/selected_features.csv"
+    script:
+        "src/feature_selection/feature_selection.py"
+
+rule train_model:
+    input:
+        "data/processed/selected_features.csv"
+    output:
+        "results/optimized_model.h5"
+    script:
+        "src/modeling/deep_learning_model.py"

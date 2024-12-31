@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#mode, "SMT" or "SMT.MRCA" or "default (just run spaceranger)"
+MODE="SMT"
+
+#specify reference
+REF=""
+
+SAMPLE_PATH=""
+
+A=""
+B=""
+C=""
+D=""
+
+A_image=""
+B_image=""
+C_image=""
+D_image=""
