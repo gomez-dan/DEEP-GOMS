@@ -44,8 +44,8 @@ snakemake --cores <number_of_cores>
 ```
 nextflow run workflows/nextflow.config
 ```
-4. Explore Notebooks: Open and run the Jupyter notebooks in the ```notebooks/``` directory to interactively explore data preprocessing, feature selection, model training, and evaluation.
+
+
+Explore Notebooks: Open and run the Jupyter notebooks in the ```notebooks/``` directory to interactively explore data preprocessing, feature selection, model training, and evaluation.
 
 This project provides a robust framework for developing and validating a predictive model for CICB response, leveraging state-of-the-art techniques in multi-omics data integration and machine learning.
-=======
-
