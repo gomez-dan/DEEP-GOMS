@@ -1,10 +1,6 @@
-Academic Software License Agreement (12/2/2021)
+Academic Software License Agreement (01/31/2024)
 
 STANFORD ACADEMIC SOFTWARE LICENSE AGREEMENT FOR "Deep Generative Modeling Exerkine Mapping and Profiles for Next-Generation Cancer Immunotherapy Biomarkers and Personalized Exercise Prescriptions"
-
-DEEP GENERATIVE MODELING EXERKINE PROFILES AND SPATIALLY RESOLVED MULTIOMICS MAPPING OF EXERKINES 
- FOR PERSONALIZED EXERCISE PRESCRIPTIONS AND NEXT-GENERATION CANCER IMMUNOTHERAPY BIOMARKERS"
-
 
 1.	This is a legal agreement (“Agreement”) between ______________________ (“RECIPIENT” or “you”), and THE BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY (“STANFORD”) and THE TRUSTEES OF THE CALIFORNIA STATE UNIVERSITY, EAST BAY ("CSUEB”).  Stanford and CSUEB have assignments to “Bodywide Map of Exerkine Changes with Spatially-Resolved Profiling at Single-Cell Resolution” (“Software”) which was developed in the laboratory of Professor Michael Snyder at Stanford and Alexander Urban at Stanford.
 2.	By accepting, receiving, and using Software, including any accompanying information, materials or manuals you are agreeing to be bound by the terms of this Agreement.  If you do not agree to the terms of this Agreement, promptly return the Software to STANFORD OR CSUEB.
